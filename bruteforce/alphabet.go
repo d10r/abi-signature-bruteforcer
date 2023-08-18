@@ -1,6 +1,6 @@
 package bruteforce
 
-var alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 func GenerateCombinations(length int) <-chan string {
 	c := make(chan string)
